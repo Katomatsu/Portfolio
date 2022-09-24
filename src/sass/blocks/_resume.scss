@@ -1,6 +1,6 @@
 .resume {
     padding-top: 120px;
-    &__subtitle {
+    &__title {
         position: relative;
         text-align: center;
         @include circle;
@@ -11,7 +11,7 @@
             transform: translateX(-50%);
         }
     }
-    &__title {
+    &__subtitle {
         text-align: center;
     }
     &__wrapper {
