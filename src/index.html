@@ -59,7 +59,7 @@
             </svg>
         </a>
         <a href="#" class="sidepanel__link">
-            <svg width="20" height="20" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 0C4.475 0 0 4.36167 0 9.74107C0 14.0457 2.865 17.6962 6.8375 18.9832C7.3375 19.0749 7.52083 18.7734 7.52083 18.5148C7.52083 18.2835 7.5125 17.6706 7.50833 16.8585C4.72667 17.4459 4.14 15.5517 4.14 15.5517C3.685 14.4274 3.0275 14.1267 3.0275 14.1267C2.12167 13.5228 3.0975 13.5352 3.0975 13.5352C4.10167 13.603 4.62917 14.5389 4.62917 14.5389C5.52083 16.0283 6.97 15.5979 7.54167 15.3493C7.63167 14.719 7.88917 14.2903 8.175 14.0466C5.95417 13.8029 3.62 12.9652 3.62 9.23304C3.62 8.16988 4.0075 7.30085 4.64917 6.61934C4.53667 6.37317 4.19917 5.3827 4.73667 4.04116C4.73667 4.04116 5.57417 3.78012 7.48667 5.03988C8.28667 4.82345 9.13667 4.71606 9.98667 4.7111C10.8367 4.71606 11.6867 4.82345 12.4867 5.03988C14.3867 3.78012 15.2242 4.04116 15.2242 4.04116C15.7617 5.3827 15.4242 6.37317 15.3242 6.61934C15.9617 7.30085 16.3492 8.16988 16.3492 9.23304C16.3492 12.9752 14.0117 13.7987 11.7867 14.0383C12.1367 14.3307 12.4617 14.928 12.4617 15.8408C12.4617 17.1444 12.4492 18.1918 12.4492 18.5082C12.4492 18.7635 12.6242 19.0683 13.1367 18.9708C17.1375 17.692 20 14.0391 20 9.74107C20 4.36167 15.5225 0 10 0Z" fill="#212121"/>
             </svg>
         </a>
@@ -152,7 +152,9 @@
     <section class="about">
         <div class="container">
             <div class="about__wrapper">
-                <img src="img/main_photo.jpg" alt="my-photo" class="about__img">
+                <div class="about__photo">
+                    <img src="img/main_photo.jpg" alt="my-photo">
+                </div>
                 <div class="about__me">
                     <h2 class="title title_fz16 about__title">Про меня</h2>
                     <div class="title">Меня зовут Адрохман</div>
@@ -309,7 +311,7 @@
                 <a href="https://katomatsu.github.io/uber/" class="portfolio__item">
                     <img src="img/works/uber.jpg" alt="uber">
                 </a>
-                <a href="https://katomatsu.github.io/Pulse/" class="portfolio__item" ><!-- "/pulse" -->
+                <a href="https://katomatsu.github.io/Pulse/" class="portfolio__item" >
                     <img src="img/works/pulse.jpg" alt="pulse">
                 </a>
                 <a href="#" class="portfolio__item vertical">
@@ -321,6 +323,54 @@
                 <a href="#" class="portfolio__item horizontal">
                     <img src="img/works/mac.jpg" alt="test">
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/main_photo.jpg" alt="my-photo">
+                </div>
+                <div class="contacts__descr">
+                    <h2 class="title title_fz16 contacts__title">Контакты</h2>
+                    <div class="title contacts__subtitle">Свяжитесь со мной</div>
+                    <div class="divider"></div>
+                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+                    <div class="contacts__social">
+                        <a href="#" class="contacts__link">
+                            <img src="icons/social/facebook-big.svg" alt="facebook">
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <img src="icons/social/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <img src="icons/social/instagram-big.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input placeholder="Иван" name="name" id="name" type="text">
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input placeholder="something@example.com" name="email" id="email" type="email">
+                            <label for="email">Ваша почта</label>
+                        </div>
+
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+                        <div>
+                            <button class="contacts__btn btn">Отправить сообщение</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
         </div>
     </section>
