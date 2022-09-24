@@ -27,6 +27,20 @@
         color: #fff;
         line-height: 60px;
     }
+    &__section-title {
+        position: relative;
+        text-align: center;
+        @include circle;
+        &:before {
+            content: '';
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+    }
 }
 
 
