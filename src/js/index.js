@@ -23,7 +23,8 @@ function validateForms(form) {
             email: {
                 required: true,
                 email: true
-            }
+            },
+            checkbox: "required"
         },
         messages: {
             name: {
@@ -34,7 +35,8 @@ function validateForms(form) {
             email: {
               required: "Пожалуйста, введите свою почту",
               email: "Неправильно введен адрес почты"
-            }
+            },
+            checkbox: "Чтобы продолжить, установите этот флажок"
           }
     });
 };
