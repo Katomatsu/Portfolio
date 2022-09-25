@@ -41,7 +41,15 @@
         grid-template-columns: repeat(2, 280px);
         justify-content: space-between;
         gap: 31px 25px;
-        label {
+        .error {
+            border: 2px solid red;
+        }
+        label.error {
+            display: block;
+            border: none;
+            text-align: center
+        }
+        .label {
             position: absolute;
             top: -8px;
             left: 20px;

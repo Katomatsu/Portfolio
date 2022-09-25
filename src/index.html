@@ -127,7 +127,7 @@
         <div class="menu__overlay"></div>
     </div>
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="hamburger">
             <span></span>
             <span class="long"></span>
@@ -349,21 +349,21 @@
                             <img src="icons/social/instagram-big.svg" alt="instagram">
                         </a>
                     </div>
-                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
                             <input placeholder="Иван" name="name" id="name" type="text">
-                            <label for="name">Ваше имя</label>
+                            <label class="label" for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
                             <input placeholder="something@example.com" name="email" id="email" type="email">
-                            <label for="email">Ваша почта</label>
+                            <label class="label" for="email">Ваша почта</label>
                         </div>
 
                         <div class="contacts__textarea">
                             <textarea name="text" id="text"></textarea>
-                            <label for="text">Ваше сообщение</label>
+                            <label class="label" for="text">Ваше сообщение</label>
                         </div>
                         <div>
                             <button class="contacts__btn btn">Отправить сообщение</button>
@@ -375,7 +375,14 @@
         </div>
     </section>
 
+    <a href="#up" class="pageup ">
+        <img src="icons/up.svg" alt="chevron-up">
+    </a>
 
+
+    <script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
