@@ -23,6 +23,13 @@
     &__text, &__social {
         margin-top: 20px;
     }
+    a {
+        text-decoration: none;
+        svg {
+            height: 30px;
+            width: 30px;
+        }
+    }
     &__link {
         margin-right: 25px;
         &:last-child {

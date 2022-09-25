@@ -92,8 +92,17 @@
         transform: translateX(-50%);
         width: 90px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        a {
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        svg {
+            width: 30px;
+            height: 30px;
+        }
     }
     &__overlay {
         position: fixed;
