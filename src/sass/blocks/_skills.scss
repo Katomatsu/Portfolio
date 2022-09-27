@@ -1,7 +1,7 @@
 .skills {
     padding-top: 120px;
     &__wrapper {
-        margin-top: 60px;
+        padding-top: 60px;
         display: grid;
         grid-template-columns: repeat(4, 270px);
         grid-template-rows: minmax(270px, auto);
